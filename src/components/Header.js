@@ -11,7 +11,8 @@ const Header = () => {
   return <header classNamee='bg-pink-200 fixed w-full px-[30px]
   lg:px-[100px] z-30 h-[100px] lgh:h-140px] flex
   items-center'>
-    Header</header>;
+    Header
+    </header>;
 };
 
 export default Header;
