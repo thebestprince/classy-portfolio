@@ -12,7 +12,8 @@ const App = () => {
   return (
     <>
  <Router>
-  <AnimRoutes/>
+  <Header />
+  <AnimRoutes />
   </Router>
   </>
   );
