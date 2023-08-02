@@ -3,7 +3,10 @@ import React from 'react';
 import Keena from '../img/home/Keena.png';
 //import link
 import { Link } from 'react-router-dom';
-
+// import motion
+import {motion} from 'framer-motion'
+//import transition
+import {transition} from '../transitions'
 
 const Home = () => {
   return <section className='section'>
