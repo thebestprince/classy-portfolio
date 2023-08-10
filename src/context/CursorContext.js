@@ -12,7 +12,7 @@ const CursorProvider = ({ children }) => {
   const [cursorBG, setCursorBG] = useState("default");
   const mobileViewportIsActive = window.innerWidth < 768;
 
-  useEffect(() => {
+  useEffect((setCursorBG) => {
     if (!mobileViewportIsActive) {
       const move = (e) => {
         setCursorPos({
